@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
+MAINTAINER MATSUI Shinsuke <poppen.jp@gmail.com>
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
                 texlive \
